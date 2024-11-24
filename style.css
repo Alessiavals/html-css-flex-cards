@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.team-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+
+.titolo {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    color: #ff007f;
+    margin-bottom: 10px;
+}
+
+.sottotitolo {
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    gap: 20px;
+    justify-content: center;
+}
+
+.team-card {
+    display: flex;
+    background-color: #1e1e1e;
+    color: #fff;
+    width: 350px;
+    height: 100px;
+    overflow: hidden;
+}
+
+
+.card-image img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px 0 0 8px;
+}
+
+.card-content {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-content h2 {
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+.card-content p {
+    font-size: 0.9rem;
+    color: #aaaaaa;
+    margin: 5px 0;
+}
+
+.card-content a {
+    color: #00b7ff;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.card-content a:hover {
+    text-decoration: underline;
+}
