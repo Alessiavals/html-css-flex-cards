@@ -58,7 +58,6 @@ body {
     width: 100px;
     height: 100px;
     object-fit: cover;
-    border-radius: 8px 0 0 8px;
 }
 
 .card-content {
@@ -85,6 +84,3 @@ body {
     font-size: 0.9rem;
 }
 
-.card-content a:hover {
-    text-decoration: underline;
-}
